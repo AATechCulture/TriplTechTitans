@@ -1,10 +1,12 @@
 import "./App.css";
+import AppContent from "./components/AppContent";
+import ThemeProvider from "./theme";
 
 function App() {
   return (
-    <>
-      <div className="App">Welcome to AeroGenie!</div>
-    </>
+    <ThemeProvider>
+      <AppContent />
+    </ThemeProvider>
   );
 }
 

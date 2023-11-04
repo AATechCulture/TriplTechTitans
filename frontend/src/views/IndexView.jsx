@@ -1,6 +1,7 @@
 import Container from "@mui/material/Container";
 import Typography from "@mui/material/Typography";
 import FlightSearch from "../components/FlightSearch";
+import TravelRecommendations from "../components/TravelRecommendations";
 
 const IndexView = () => {
   return (
@@ -9,6 +10,7 @@ const IndexView = () => {
         Hi, Welcome back 👋
       </Typography>
       <FlightSearch />
+      <TravelRecommendations />
     </Container>
   );
 };

@@ -56,7 +56,7 @@ const TravelRecommendations = ({
   ],
 }) => {
   return (
-    <div>
+    <Box>
       <Typography variant="h4" sx={{ mb: 5 }}>
         Travel Recommendations
       </Typography>
@@ -67,7 +67,7 @@ const TravelRecommendations = ({
           </Grid>
         ))}
       </Grid>
-    </div>
+    </Box>
   );
 };
 

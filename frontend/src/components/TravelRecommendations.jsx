@@ -1,9 +1,8 @@
-import PropTypes from "prop-types";
 import { Box, Grid, Typography } from "@mui/material";
 import TravelRecommendationCard from "./TravelRecommendationCard";
 
-const TravelRecommendations = ({
-  travelRecommendations = [
+const TravelRecommendations = () => {
+  const travelRecommendations = [
     {
       id: 1,
       name: "Bali, Indonesia",
@@ -53,8 +52,8 @@ const TravelRecommendations = ({
         "Istanbul is the capital and most populous city of Turkey. It is known for its museums, monuments, and architecture. It is also known for its fashion, food, and wine.",
       image: "https://source.unsplash.com/featured/?istanbul",
     },
-  ],
-}) => {
+  ];
+
   return (
     <Box>
       <Typography variant="h4" sx={{ mb: 5 }}>
@@ -69,10 +68,6 @@ const TravelRecommendations = ({
       </Grid>
     </Box>
   );
-};
-
-TravelRecommendations.propTypes = {
-  travelRecommendations: PropTypes.array.isRequired,
 };
 
 export default TravelRecommendations;

@@ -4,7 +4,7 @@ const predictionsUrl = '/api/predictions'
 
 const getFlightDelayPrediction = async (searchData) => request('GET', predictionsUrl, searchData);
 
-export {
+export default {
     getFlightDelayPrediction
 }
 

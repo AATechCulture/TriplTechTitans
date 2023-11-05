@@ -8,7 +8,7 @@ export default () => {
     server: {
       proxy: {
         '/api': {
-          target: 'http://localhost:3002',
+          target: 'http://localhost:3005',
           changeOrigin: true,
           rewrite: (path) => path.replace(/^\/api/, ''),
         },

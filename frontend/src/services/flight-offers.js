@@ -4,6 +4,6 @@ const flightOffersUrl = '/api/flight-offers'
 
 const getFlightOffers = async (searchData) => request('GET', flightOffersUrl, searchData);
 
-export {
+export default {
     getFlightOffers
 }

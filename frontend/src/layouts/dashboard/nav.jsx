@@ -24,7 +24,7 @@ export default function Nav({ openNav, onCloseNav }) {
     displayName: "John Doe",
     email: "johndoe@example.com",
     photoURL: "",
-    role: "Admin",
+    role: "User",
   };
 
   const upLg = useResponsive("up", "lg");

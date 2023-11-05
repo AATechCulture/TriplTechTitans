@@ -2,16 +2,17 @@ import axios from 'axios';
 
 const getFlightOffers = async (req, res) => {
     try {
-        const { originLocationCode, destinationLocationCode, departureDate, adults } = req.query;
+        const { originLocationCode, destinationLocationCode, departureDate, returnDate, numAdults } = req.query;
 
         let data = '';
+        console.log(originLocationCode, destinationLocationCode, departureDate, returnDate, numAdults);
 
         let config = {
             method: 'get',
             maxBodyLength: Infinity,
-            url: `https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=${originLocationCode}&destinationLocationCode=${destinationLocationCode}&departureDate=${departureDate}&adults=${adults}&nonStop=false&max=250`,
+            url: `https://test.api.amadeus.com/v2/shopping/flight-offers?originLocationCode=${originLocationCode}&destinationLocationCode=${destinationLocationCode}&departureDate=${departureDate}&adults=${adults}&returnDate=${returnDate}&max=10`,
             headers: {
-                'Authorization': `Bearer ${process.env.AMADEUS_API_KEY}`
+                'Authorization': `Bearer H94mGqyhh7eGpPjgerbDDbzpZpR1`
             },
             data: data
         };

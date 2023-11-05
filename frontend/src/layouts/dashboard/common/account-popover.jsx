@@ -39,7 +39,7 @@ export default function AccountPopover() {
     displayName: "John Doe",
     email: "johndoe@example.com",
     photoURL: "",
-    role: "Admin",
+    role: "User",
   };
 
   return (

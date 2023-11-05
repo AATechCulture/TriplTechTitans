@@ -11,10 +11,11 @@ const headers = {
 };
 
 const request = async (method, url, body = null) => {
-
     const options = body ? { method, headers, body: JSON.stringify(body) } : { method, headers }
 
-    let response
+    console.log(url + ' ' + JSON.stringify(options))
+
+    let response;
 
     try {
         response = await fetch(url, options)
@@ -23,16 +24,15 @@ const request = async (method, url, body = null) => {
         throw new ApiError('API cannot be reached', e.message)
     }
 
-    const data = await response.json()
+    if (!response.ok) {
+        const data = await response.json();
+        throw new ApiError(data.error.message, data.error.details);
+    }
 
-    if (response.ok) {
-        return data
-    }
-    else {
-        if (data.error)
-            throw new ApiError(data.error.message, data.error.details)
-    }
+    const data = await response.json();
+    return data;
 }
+
 
 export {
     ApiError,

@@ -2,6 +2,7 @@ import { Box, Grid, Typography } from "@mui/material";
 
 import { Container } from "@mui/material";
 import Activities from "../components/Activities";
+import TravelRecommendations from "../components/TravelRecommendations";
 
 const FlightFlexView = () => {
   const activities = [];
@@ -20,9 +21,7 @@ const FlightFlexView = () => {
         </Grid>
       </Box>
       <Box sx={{ mb: 5 }}>
-        <Typography variant="h6" sx={{ mb: 5 }}>
-          Activity Recommendations
-        </Typography>
+        <TravelRecommendations />
         <Activities activities={activities} />
       </Box>
     </Container>

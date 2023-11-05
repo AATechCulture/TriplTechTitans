@@ -15,6 +15,7 @@ import usePathname from "../../hooks/use-pathname";
 import RouterLink from "../../components/RouterLink";
 import { useResponsive } from "../../hooks/use-responsive";
 import Scrollbar from "../../components/ScrollBar";
+import Logo from "../../components/Logo";
 
 export default function Nav({ openNav, onCloseNav }) {
   const pathname = usePathname();
@@ -24,10 +25,6 @@ export default function Nav({ openNav, onCloseNav }) {
     email: "johndoe@example.com",
     photoURL: "",
     role: "Admin",
-  };
-
-  const Logo = () => {
-    return <Box component="img" src="" sx={{ width: 40, height: 40 }} />;
   };
 
   const upLg = useResponsive("up", "lg");

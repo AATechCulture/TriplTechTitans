@@ -10,6 +10,7 @@ const IndexView = () => {
         Hi, Welcome back 👋
       </Typography>
       <FlightSearch />
+      {/* TODO: Add Flight Search Results */}
       <TravelRecommendations />
     </Container>
   );

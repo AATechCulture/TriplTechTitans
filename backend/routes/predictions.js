@@ -5,7 +5,7 @@ import predictionsController from '../controllers/predictions.js'
 const router = express.Router()
 
 // Get all predictions
-router.get('/', predictionsController.getFlightDelayPredictioin)
+router.get('/', predictionsController.getFlightDelayPrediction)
 
 
 export default router

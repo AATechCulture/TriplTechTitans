@@ -1,6 +1,5 @@
-import { Typography } from "@mui/material";
-
-import { Container } from "@mui/material";
+import { Typography, Container } from "@mui/material";
+import FlightRoutes from "../components/FlightRoutes";
 
 const MyRoutesView = () => {
   return (
@@ -8,6 +7,7 @@ const MyRoutesView = () => {
       <Typography variant="h4" sx={{ mb: 5 }}>
         Your Flight Routes 🛫
       </Typography>
+      <FlightRoutes />
     </Container>
   );
 };

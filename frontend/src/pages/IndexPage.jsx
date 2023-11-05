@@ -6,7 +6,7 @@ const IndexPage = () => {
   return (
     <>
       <Helmet>
-        <title> RouteSearch </title>
+        <title> RoutesSearch </title>
       </Helmet>
 
       <IndexView />

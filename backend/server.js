@@ -3,6 +3,7 @@ import cors from 'cors';
 import flightoffersRouter from './routes/flight-offers.js'
 import predictionsRouter from './routes/predictions.js'
 import recommendationsRouter from './routes/travel-recommendations.js'
+import amadeuTestRouter from './routes/amadeu-test-api.js'
 
 // create express app
 const app = express();
@@ -22,6 +23,9 @@ app.use('/predictions', predictionsRouter)
 // travel-recommendations api
 app.use('/travel-recommendations', recommendationsRouter)
 
+// amadeu-test-api
+app.use('/test', amadeuTestRouter)
+
 // Set up the default route
 app.get('/', (req, res) => {
     res.status(200).send(
@@ -30,7 +34,7 @@ app.get('/', (req, res) => {
 })
 
 // set up the port that the server will run on
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3005;
 
 // listen for requests
 app.listen(PORT, () => {

@@ -1,27 +1,43 @@
-import { Box, Typography } from "@mui/material";
+import { Box, Chip } from "@mui/material";
 import PropTypes from "prop-types";
 import { Chrono } from "react-chrono";
+import { getDisruptionColor } from "../../utilities/get-disruption-color";
+import { getDisruptionIndex } from "../../utilities/get-disruption-index";
+import CardSubtitle from "./CardSubTitle";
 
 const FlightRouteCard = ({ flightRoute }) => {
   const { itineraries } = flightRoute;
   const { segments } = itineraries[0];
 
+  const disruptionIndex = getDisruptionIndex();
+  const disruptionColor = getDisruptionColor(disruptionIndex);
+
   const items = segments.map((segment) => ({
     title: segment.departure.at.split("T")[0],
     cardTitle: `Flight from ${segment.departure.iataCode} to ${segment.arrival.iataCode}`,
-    cardSubtitle: `Duration: ${segment.duration}`,
+    cardSubtitle: <CardSubtitle duration={segment.duration} />,
   }));
 
   return (
-    <Box>
-      <Typography
-        variant="h6"
+    <Box
+      sx={{
+        display: "flex",
+        flexDirection: "column",
+        alignItems: "center",
+        justifyContent: "center",
+        padding: "20px",
+        backgroundColor: "#f5f5f5",
+        borderRadius: "10px",
+      }}
+    >
+      <Chip
+        label={`Disruption Index: ${disruptionIndex.toFixed(2)}%`}
         sx={{
-          mb: 5,
+          backgroundColor: disruptionColor,
+          marginBottom: "10px",
+          color: "black",
         }}
-      >
-        Disruption Index: {"50%"}
-      </Typography>
+      />
       <Chrono
         cardHeight={100}
         mediaHeight={100}

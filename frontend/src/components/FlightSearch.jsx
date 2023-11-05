@@ -10,13 +10,23 @@ import {
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
 import "./FlightSearch.css";
+import PropTypes from "prop-types";
 
 const FlightSearch = ({ searchFlights }) => {
+  // const formatDate = (dateString) => {
+  //   const date = new Date(dateString);
+  //   const year = date.getFullYear();
+  //   const month = String(date.getMonth() + 1).padStart(2, "0"); // Months are 0-indexed in JavaScript
+  //   const day = String(date.getDate()).padStart(2, "0");
+
+  //   return `${year}-${month}-${day}`;
+  // };
+
   const [formData, setFormData] = useState({
     origin: "",
     destination: "",
-    departureDate: null,
-    returnDate: null,
+    departureDate: "",
+    returnDate: "",
     numAdults: 1,
   });
 
@@ -40,21 +50,12 @@ const FlightSearch = ({ searchFlights }) => {
       formData.origin &&
       formData.destination &&
       formData.departureDate &&
-      formData.returnDate &&
       formData.numAdults > 0
     );
   };
 
   const onSearchFlights = () => {
-    if (validateInputs()) {
-      searchFlights(
-        formData.origin,
-        formData.destination,
-        formData.departureDate.format("YYYY-MM-DD"),
-        formData.returnDate.format("YYYY-MM-DD"),
-        formData.numAdults
-      );
-    }
+    searchFlights();
   };
 
   return (
@@ -138,6 +139,12 @@ const FlightSearch = ({ searchFlights }) => {
       </Grid>
     </Box>
   );
+};
+
+FlightSearch.propTypes = {
+  searchFlights: PropTypes.func.isRequired,
+  setGettingFlightRoutes: PropTypes.func.isRequired,
+  gettingFlightRoutes: PropTypes.bool.isRequired,
 };
 
 export default FlightSearch;

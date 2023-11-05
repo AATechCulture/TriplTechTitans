@@ -1,0 +1,602 @@
+{
+    "data": [
+        {
+            "type": "activity",
+            "id": "6379109",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/6379109",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "From Italy with love: Tasting menú paired with italian wines.",
+            "description": "Join the latest culinary trend of immersive and social dining where local hosts invite you into their homes for a magical meal.<br><br>During this dinner, you'll feel the heart of Italy in every bite. \n\nWe don't want you arrive to our place and just sit down in a table, we want you feel as a home and enjoy how we live the dinner moment in Italy, tasting Italian wines, welcoming you with an Italian aperitivo and to have a nice conversation in an elegant but relaxed atmosphere, with a selection of Italian recipes with a little tweak but keeping their Italian essence.\n\n\n",
+            "geoCode": {
+                "latitude": 41.39698873752701,
+                "longitude": 2.1630294494266358
+            },
+            "price": {
+                "amount": "72.0",
+                "currencyCode": "GBP"
+            },
+            "pictures": [
+                "https://screen-api.vizeater.co/files/1460941/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460946/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460947/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460942/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460943/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454025/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454023/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454021/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454024/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460940/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460945/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460948/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460944/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+            ],
+            "bookingLink": "https://vizeater.co/events/54143?utm_source=amadeus-1381",
+            "minimumDuration": "3 hours"
+        },
+        {
+            "type": "activity",
+            "id": "6379104",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/6379104",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Fun Italian Cooking Class: our most iconic dish \"fresh pasta\" ",
+            "description": "What better way to explore a city than by discovering its cuisine first hand? Put on a chef's hat for the day and learn how to make classic dishes, local specialties and impressive plates with our expert hosts. Sign up for one of our fun, immersive cooking classes and discover a new hidden talent!<br><br>Join Roberto and make yourself at home! While you sip on a glass of wine, he'll teach you to prepare and then cook homemade pasta. He will also explain how Italian cuisine became such a central part of the Mediterranean diet.\n\nYou'll be amazed that it takes just 3 basic ingredients to prepare each of Italy's most famous dishes: ravioli, gnocchi or tagliatelle. Each dish will be accompanied with its own sauce.\n\nAfter the class, you'll be able to enjoy the final result and dine on a three course Italian meal.\n",
+            "geoCode": {
+                "latitude": 41.39773341339387,
+                "longitude": 2.162702225386435
+            },
+            "price": {
+                "amount": "36.0",
+                "currencyCode": "GBP"
+            },
+            "pictures": [
+                "https://screen-api.vizeater.co/files/1460949/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460136/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454468/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460135/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481293/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460957/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481295/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481290/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460953/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481291/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481289/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454465/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481288/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460133/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460954/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1454466/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1481294/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460131/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1460134/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+            ],
+            "bookingLink": "https://vizeater.co/events/54175?utm_source=amadeus-1381",
+            "minimumDuration": "3 hours"
+        },
+        {
+            "type": "activity",
+            "id": "6378546",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/6378546",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Spanish wine tasting in a historic building with a Sommelier",
+            "description": "Starting with a welcome glass of Vermouth at a traditional local Bodega, you'll be whisked up to a private tasting room for an unforgettable tour through the wines of Spain!<br>• Each wine will be paired with locally-sourced snacks from the region, adding to the true Spanish feel of the experience<br>• The tasting includes 5 generous servings of carefully selected wines<br>• Takes place at the Wine Alphabet's private and fully-equipped tasting room, located in a historic building in the heart of art-nouveau Barcelona<br>• Communal wine tasting for 4 to 7 people<br>• Nika is a Sommelier and wine educator with the WSET level 3 certification and national certifications in Spanish wines and Cava. She also founded 'Wine Alphabet', an online project where she shares her knowledge of wine, one letter at a time!<br><br>About your host, Nika: \"As a consultant, I work with major restaurant groups in the city and have been featured in the media, including The Vintner Project and La Mono Pleasures. I host private and public tastings, including at Sir Victor hotel, Soho House Barcelona, and in the Wine Alphabet private wine room.\"",
+            "geoCode": {
+                "latitude": 41.39302245758487,
+                "longitude": 2.1539588519946173
+            },
+            "price": {
+                "amount": "42.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://screen-api.vizeater.co/files/1357718/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357709/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357732/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357728/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357710/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1136977/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357712/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357729/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357733/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357731/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1357720/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+            ],
+            "bookingLink": "https://vizeater.co/events/46019?utm_source=amadeus-1381",
+            "minimumDuration": "2 hours"
+        },
+        {
+            "type": "activity",
+            "id": "3832276",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832276",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "MR PORTER BARCELONA",
+            "shortDescription": "Steakhouse",
+            "description": "Steakhouse",
+            "geoCode": {
+                "latitude": 41.396214,
+                "longitude": 2.160968
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/2/26468957.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/171195?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "6379377",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/6379377",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "description": "Join the latest culinary trend of immersive and social dining where local hosts invite you into their homes for a magical meal.<br><br>DAME is an old warehouse designed to honour the speakeasies of the nationwide alcohol prohibition in the USA. The combination of the secretive venue and the innovative menu is bound to surprise you!\n\nYour host, Mario, offers a tasting menu of dishes from across the peninsula, paired with different wines. A chef full of inspiration, his menu and wine pairing change weekly. It is upbeat, creative and exciting. \n\nFrom the decoration and mood lighting, to seasonal ingredients and food presentation, this is nothing less than a high quality experience.\n\n\nPlease note that for groups smaller than 10 people, the price can change. Click on \"Privatize and customise the event\" to get a personalised offer.",
+            "geoCode": {
+                "latitude": 41.397823495810584,
+                "longitude": 2.1630404484871946
+            },
+            "price": {
+                "amount": "72.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://screen-api.vizeater.co/files/1487770/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1487769/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501690/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1488985/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501687/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501958/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501689/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1488987/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501691/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501685/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501688/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1488983/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1487757/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501686/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1488986/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1501692/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1487768/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1488984/-/preview/-/progressive/yes/-/format/jpeg/image.jpg",
+                "https://screen-api.vizeater.co/files/1488982/-/preview/-/progressive/yes/-/format/jpeg/image.jpg"
+            ],
+            "bookingLink": "https://vizeater.co/events/55388?utm_source=amadeus-1381",
+            "minimumDuration": "3 hours"
+        },
+        {
+            "type": "activity",
+            "id": "3832325",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832325",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "VIET KITCHEN",
+            "shortDescription": "Vietnamita",
+            "description": "Vietnamita",
+            "geoCode": {
+                "latitude": 41.39194,
+                "longitude": 2.154194
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/27775374.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/186879?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832283",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832283",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Season Resaurant",
+            "shortDescription": "Tapas / Small Plates",
+            "description": "Tapas / Small Plates",
+            "geoCode": {
+                "latitude": 41.391354,
+                "longitude": 2.155211
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/43830648.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/171972?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832224",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832224",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Rumbo Bar & Eatery",
+            "shortDescription": "Mediterranean, Spanish, Cocktail Bar",
+            "description": "Mediterranean, Spanish, Cocktail Bar",
+            "geoCode": {
+                "latitude": 41.392788,
+                "longitude": 2.167397
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/27790602.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/159921?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832299",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832299",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Colella",
+            "shortDescription": "Italian, Contemporary, Bistro",
+            "description": "Italian, Contemporary, Bistro",
+            "geoCode": {
+                "latitude": 41.396622,
+                "longitude": 2.162196
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/47270271.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/175035?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832653",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832653",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "La Paella de Su",
+            "shortDescription": "Spanish, Mediterranean, Tapas / Small Plates",
+            "description": "Spanish, Mediterranean, Tapas / Small Plates",
+            "geoCode": {
+                "latitude": 41.397301,
+                "longitude": 2.161556
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/42113207.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/252183?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3044851",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3044851",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Casa Milà",
+            "geoCode": {
+                "latitude": 41.3952155,
+                "longitude": 2.1619024
+            },
+            "rating": "4.6",
+            "price": {},
+            "pictures": [],
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3280192",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3280192",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Amazing Free Tour through Gothic Barcelona (Available in Spanish)",
+            "description": "<p>I want to guide you, show you <strong>Barcelona and its old town with more than 2000 years of history</strong> , visiting cathedrals, squares, markets, streets and hidden corners <strong>until you reach the Barcelona of today.</strong><br><br> I want to show you on my tour these and other places that we can visit:</p><ul><li> <strong>Barcelona's cathedral</strong></li><li> <strong>gothic quarter</strong></li><li> <strong>La Boqueria Market</strong></li><li> <strong>Joan's kiss</strong></li><li> <strong>bishop's bridge</strong></li><li> <strong>Casa Batllo Gaudi</strong></li><li> <strong>Catalonia Square</strong></li><li> <strong>the promenade</strong></li><li> <strong>colon statue</strong></li><li> <strong>Palau Guell</strong></li><li> <strong>Sacred Family</strong></li></ul><p><br> You can't miss this Free Tour! <strong>What I want is for you to spend an unforgettable moment in your lives with this tour.</strong></p><p>Free tour: Book for free and pay what you want at the end</p>",
+            "geoCode": {
+                "latitude": 41.390762,
+                "longitude": 2.166891
+            },
+            "rating": "4.2",
+            "price": {
+                "amount": "0.0"
+            },
+            "pictures": [
+                "https://d1i21eq0w7p1n3.cloudfront.net/dimxdcu7jbs0c7hxm67ly97d9620",
+                "https://d1i21eq0w7p1n3.cloudfront.net/oq4qwrmpf1riq7kdh5c3pm4kam7f",
+                "https://d1i21eq0w7p1n3.cloudfront.net/dcnyisljy871r6qzm6mn3hja8yr2",
+                "https://d1i21eq0w7p1n3.cloudfront.net/ngw1qpoxqk8ub9lvztry97ilfj4z",
+                "https://d1i21eq0w7p1n3.cloudfront.net/ba5na2bxrn7lgwbf09utydfrqg9v"
+            ],
+            "bookingLink": "https://www.guruwalk.com/walks/42010-amazing-free-tour-through-gothic-barcelona?ref=ojlgpuf3oo1nuk2s74m5",
+            "minimumDuration": "2 hours 30 minutes"
+        },
+        {
+            "type": "activity",
+            "id": "3044853",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3044853",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Casa Batlló",
+            "geoCode": {
+                "latitude": 41.3917,
+                "longitude": 2.164918
+            },
+            "rating": "4.6",
+            "price": {},
+            "pictures": [],
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832726",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832726",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Posidònia",
+            "shortDescription": "Pescados",
+            "description": "Pescados",
+            "geoCode": {
+                "latitude": 41.4056266,
+                "longitude": 2.161736
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/47320126.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/267996?lang=en-gb",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832656",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832656",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Indian Herbs",
+            "shortDescription": "Indian",
+            "description": "Indian",
+            "geoCode": {
+                "latitude": 41.400723,
+                "longitude": 2.164615
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/2/42295813.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/252978?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832310",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832310",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "L'illa de Rossello Restaurant - Evenia Rosello Hotel",
+            "shortDescription": "Mediterranean",
+            "description": "Mediterranean",
+            "geoCode": {
+                "latitude": 41.392064,
+                "longitude": 2.155524
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/3/26471434.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/176301?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832061",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832061",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Restaurant Pau Claris 190",
+            "shortDescription": "Mediterranean, International, Vegetarian / Vegan",
+            "description": "Mediterranean, International, Vegetarian / Vegan",
+            "geoCode": {
+                "latitude": 41.396655,
+                "longitude": 2.162197
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/1/30332526.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/143601?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832085",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832085",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Hummus Barcelona",
+            "shortDescription": "Vegetarian / Vegan, Vegetarian, Mediterranean",
+            "description": "Vegetarian / Vegan, Vegetarian, Mediterranean",
+            "geoCode": {
+                "latitude": 41.39129,
+                "longitude": 2.161134
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/1/25199240.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/144903?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3832065",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3832065",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "La dama",
+            "shortDescription": "Mediterranean",
+            "description": "Mediterranean",
+            "geoCode": {
+                "latitude": 41.394581,
+                "longitude": 2.15317
+            },
+            "price": {
+                "amount": "0.0",
+                "currencyCode": "EUR"
+            },
+            "pictures": [
+                "https://resizer.otstatic.com/v2/photos/wide-large/1/25136245.jpg"
+            ],
+            "bookingLink": "http://www.opentable.es/restaurant/profile/143616?lang=en-gb&ref=18595",
+            "minimumDuration": ""
+        },
+        {
+            "type": "activity",
+            "id": "3269244",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3269244",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "Barcelona in one day! (Available in Spanish)",
+            "description": "<p>A Fantastic walking tour of the emblematic sites of Barcelona, their history and a brief review of each one, starting with Park Güell, Hospital Sant Pau and ending at Sagrada Familia. Walking the streets of the neighborhoods and feeling that typical Catalan atmosphere! A moment full of stories and the best memories to remember this beautiful Mediterranean city!</p><p>Free tour: Book for free and pay what you want at the end</p>",
+            "geoCode": {
+                "latitude": 41.40586,
+                "longitude": 2.162965
+            },
+            "rating": "4.1",
+            "price": {
+                "amount": "0.0"
+            },
+            "pictures": [
+                "https://d1i21eq0w7p1n3.cloudfront.net/upxzasc8xu61j898u5to9qzu57si",
+                "https://d1i21eq0w7p1n3.cloudfront.net/tvqtecq5ukb6raicr02l34fd1t1z",
+                "https://d1i21eq0w7p1n3.cloudfront.net/x7uyb3sta3bzkjazlegcqvz6259z"
+            ],
+            "bookingLink": "https://www.guruwalk.com/walks/35497-barcelona-in-one-day?ref=ojlgpuf3oo1nuk2s74m5",
+            "minimumDuration": "2 hours 30 minutes"
+        },
+        {
+            "type": "activity",
+            "id": "3273097",
+            "self": {
+                "href": "https://test.api.amadeus.com/v1/shopping/activities/3273097",
+                "methods": [
+                    "GET"
+                ]
+            },
+            "name": "The grace of Vila de Gracia (Available in Spanish)",
+            "description": "<p>A <strong>tour of the charming Gracia neighborhood</strong> , a hidden gem of sleepy squares, which houses in its tree-lined streets, artist galleries, local artisan shops and restaurants for all palates.<br><br> The <strong>birthplace of Barcelona's musical style: La Rumba Catalana.</strong> You will also get to know the most historical side of the neighborhood, a lesser-known image of revolutions, insurrections and wars.<br><br> Finally, you will be able to see <strong>Casa Vicens</strong> , which was the <strong>first house</strong> <strong>made</strong> by Antoni <strong>Gaudí.</strong><br><br> <strong>WHAT WE WILL SEE ON THIS TOUR:</strong></p><ul><li> <strong>FUSTER HOUSE</strong></li><li> <strong>PLAZA VILA DE GRACIA</strong></li><li> <strong>RASPALL SQUARE</strong></li><li> <strong>SQUARE OF THE REVOLUTION</strong></li><li> <strong>VERDI STREET</strong></li><li> <strong>PLAZA DE LA VIRREINA</strong></li><li> <strong>DIAMANT SQUARE</strong></li><li> <strong>VICENS HOUSE</strong></li><li> <strong>PLAZA LESSEPS</strong></li></ul><p><br><br> Guide: Carlitos<br><br> Price: Free Offer You set the price!<br><br></p><p>Free tour: Book for free and pay what you want at the end</p>",
+            "geoCode": {
+                "latitude": 41.397972,
+                "longitude": 2.158032
+            },
+            "rating": "4.5",
+            "price": {
+                "amount": "0.0"
+            },
+            "pictures": [
+                "https://d1i21eq0w7p1n3.cloudfront.net/x1pl4cshr9e4f99xtx6uqbcipm0t",
+                "https://d1i21eq0w7p1n3.cloudfront.net/d3rhz22mkh28bwtmkqmtfn0cocag",
+                "https://d1i21eq0w7p1n3.cloudfront.net/jmn0ka6ukm9y2jsmbsyohc0pyn36",
+                "https://d1i21eq0w7p1n3.cloudfront.net/7i73igzwpqa8ux8g53hwtoqeo15v",
+                "https://d1i21eq0w7p1n3.cloudfront.net/e4cyuvykrg06z84tlhqu71om6b4c"
+            ],
+            "bookingLink": "https://www.guruwalk.com/walks/38392-the-grace-of-vila-de-gracia?ref=ojlgpuf3oo1nuk2s74m5",
+            "minimumDuration": "2 hours"
+        }
+    ],
+    "meta": {
+        "count": 21,
+        "links": {
+            "self": "https://test.api.amadeus.com/v1/shopping/activities?latitude=41.397158&longitude=2.160873&radius=1"
+        }
+    }
+}
